@@ -2,7 +2,12 @@ import one
 
 print('top level in TWO.py')
 
-one.func()
+
+def func_two():
+    print('Func in Two Py file ')
+
+
+one.func_one()
 
 if __name__ == '__main__':
     print('this is TWO Py directly')

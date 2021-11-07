@@ -1,7 +1,7 @@
 ###### Comments USE #####
-'''
+"""
 Use hashTAG or TRIPLE Quotation
-'''
+"""
 
 ######## Escape sequences code
 
