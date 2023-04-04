@@ -243,5 +243,6 @@ print(str(b))
 print(len(b))
 print()
 
+print('------   Dunder Method 2    --------')
 d = Magazine('Fitness')
 print(str(d))
