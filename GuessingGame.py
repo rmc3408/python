@@ -24,7 +24,7 @@ and how many guesses it took!
 import random as r
 computer = r.randint(1,100)
 
-print('Guessing Game')
+print('Guessing Game', computer)
 player = 0
 guessList = [0]
 

@@ -42,7 +42,7 @@ print(type(mydog))
 print(mydog.fullname)
 print(mydog.name)
 mydog.speak(3)
-print('-----  Class Definition  ----------')
+
 
 
 
@@ -225,13 +225,12 @@ class Book:
 class Magazine(Book):
     
     def __init__(self, category):
-        super().__init__(Book.title, 'doctorWho', '50 to 100')
+        super().__init__('scyFi', 'doctorWho', '50 to 100')
         print('@ MAGAZINE @')
         self.category = category
 
     def __str__(self):
-        return 'Magazine: ' \
-            + self.category + '\nTitle: '+ Book.__str__(self)
+        return 'Magazine: ' + self.category + '\nTitle: '+ Book.__str__(self)
             
 
 
@@ -243,6 +242,5 @@ print(str(b))
 print(len(b))
 print()
 
-print('------   Dunder Method 2    --------')
 d = Magazine('Fitness')
 print(str(d))
