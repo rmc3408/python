@@ -11,6 +11,7 @@ elif a == b:
 else:
     print("B is Bigger")
 
+
 ##### For
 mylist = (1, 2, 3, 4)
 for num in mylist:
@@ -24,10 +25,11 @@ astring = 'Raph'
 for l in astring:
     print(l)
 
+
 # WHILE
 x = 0
-while x < 10:
-    if x == 8:
+while x < 4:
+    if x == 3:
         # break
         pass
         # continue
@@ -35,7 +37,9 @@ while x < 10:
     print(x)
     x += 1
 
-    ##################
+
+
+##################
 #### LOOPS STATEMENTS #####
 ##################
 
@@ -47,7 +51,8 @@ for letter in s:
     if letter == 'e' or letter == 's':
         break
     print(letter, end=' ')
-print()  # print out only "g " and stop.
+
+print("\n-----") 
 
 # Continue -> do NOT terminating the loop, it forces to execute the next iteration
 #  of the loop.
@@ -55,13 +60,19 @@ for letter in s:
     if letter == 'e' or letter == 's':
         continue
     print(letter, end=" ")
-print()  # print out only " g k f o r g k" .. Jump any 'e' or 's'.
+
+print("\n-----") 
 
 # Pass -> used to write empty loops.
 for letter in s:
     if letter == 'e' or letter == 's':
+        #calculate something
         pass
     print(letter, end=" ")
+
+print("\n-----\n\n") 
+
+
 
 #####################
 # NESTED LOOP
